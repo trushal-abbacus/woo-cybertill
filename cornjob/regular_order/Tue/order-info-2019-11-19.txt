@@ -1,0 +1,44 @@
+**********************************2019-11-19 09:25:28**********************************
+Order Id=8104
+Transaction Infotmation:Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6453
+                    [status] => 1
+                    [orderTotal] => 156.95
+                    [vat] => 25
+                )
+
+            [success] => 1
+        )
+
+)
+********* End *********
+ ********************************** 
+2019-11-19 09:31:49
+ ********************************** 
+
+ Order Id=8107
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6454
+                    [status] => 1
+                    [orderTotal] => 136.95
+                    [vat] => 21.67
+                )
+
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
