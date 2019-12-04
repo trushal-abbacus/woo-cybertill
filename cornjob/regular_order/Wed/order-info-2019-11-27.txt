@@ -1,0 +1,78 @@
+
+ ********************************** 
+2019-11-27 12:53:17
+ ********************************** 
+
+ Order Id=8144
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6461
+                    [status] => 1
+                    [orderTotal] => 221.95
+                    [vat] => 35.83
+                )
+
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
+
+ ********************************** 
+2019-11-27 13:11:03
+ ********************************** 
+
+ Order Id=8147
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6462
+                    [status] => 1
+                    [orderTotal] => 356.95
+                    [vat] => 58.33
+                )
+
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
+
+ ********************************** 
+2019-11-27 14:30:44
+ ********************************** 
+
+ Order Id=8154
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6463
+                    [status] => 1
+                    [orderTotal] => 136.95
+                    [vat] => 21.67
+                )
+
+            [success] => 1
+        )
+
+)
+
+********* End ********* 

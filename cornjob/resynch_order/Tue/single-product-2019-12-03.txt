@@ -1,0 +1,525 @@
+
+ ********************************** 
+2019-12-03 09:22:46
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 09:25:38
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 09:44:24
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 10:16:14
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 10:51:48
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 12:17:20
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:26:12
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:27:23
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:27:49
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:28:33
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:31:38
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:31:50
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 13:41:03
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 14:00:07
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-12-03 14:02:26
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 12310
+            [name] => * TRAPPER TAN SUEDE - Chukka Boot
+            [ref] => TRATS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => TRATS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 

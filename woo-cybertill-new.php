@@ -84,24 +84,48 @@
 
    function get_ref_product_id($product_title,$sku,$client){
       try{
-         $product_data = $client->product_search($product_title);
-         foreach($product_data->item as $product_data){
-               $product_stock = $client->stock_product($product_data->id);
-               if(count($product_stock->item) == 1){
-                  $stkItemId = $product_stock->item->stkItemId;
-               }else{
-                  $stkItemId = $product_stock->item[0]->stkItemId;
-               }
-               $product_item = $client->item_get($stkItemId);
-               if(explode(':', $product_item->productOption->ref)[0] == $sku){
-                  return $product_data->id;
-               }
-         }
+         $products_data = $client->product_search($product_title);
+         if(count($products_data->item) > 1){
+            foreach($products_data->item as $product_data){
+              
+              try{
+                 $product_stock = $client->stock_product($product_data->id);
+                 if(count($product_stock->item) == 1){
+                    $stkItemId = $product_stock->item->stkItemId;
+                 }else{
+                    $stkItemId = $product_stock->item[0]->stkItemId;
+                 }
+                 $product_item = $client->item_get($stkItemId);
+                 if(explode(':', $product_item->productOption->ref)[0] == $sku){
+                    return $product_data->id;
+                 }
+              }catch(Exception $e){
+                 
+              }
+            }
+          }
+          if(count($products_data->item)==1){
+            $product_data = $products_data->item;
+
+            $product_stock = $client->stock_product($product_data->id);
+            if(count($product_stock->item) == 1){
+              $stkItemId = $product_stock->item->stkItemId;
+            }else{
+              $stkItemId = $product_stock->item[0]->stkItemId;
+            }
+            $product_item = $client->item_get($stkItemId);
+            if(explode(':', $product_item->productOption->ref)[0] == $sku){
+              return $product_data->id;
+            }
+          }
          return '';
       }catch(Exception $e){
          return '';
       }
    }
+
+   
+
    //add_action("init","cybertil_product_ref_id_fn");
    function cybertil_product_ref_id_fn(){
 
@@ -132,8 +156,6 @@
             $product_title = $product_data->post_title;
             $productDetail = wc_get_product( $product_data->ID );
             $ref_product_id = get_ref_product_id($product_title,$productDetail->get_sku(),$client);
-
-            //echo $i." -> ".$product_data->ID." -> ";print_r($ref_product_id);echo '<br>';
             
             if($ref_product_id != ''){
 
@@ -286,7 +308,7 @@
                   $myProductArray[$i]['stock']=$stock_detail->stock;
                  
                   $quantity = $stock_detail->stock;
-                  $product_item = $client->item_get ($stock_detail->stkItemId);
+                  $product_item = $client->item_get($stock_detail->stkItemId);
                   $ref_sku = explode(":",$product_item->productOption->ref); 
 
                   $product_data = new WC_Product( $product->id );
@@ -416,12 +438,34 @@
       global $product;
       global $woocommerce;
 
-      $prodsku = $product->sku;
-
-
       $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php");
       $auth_id = $client->authenticate_get('www.loakefactoryshop.co.uk', 'e18b7b83675c99e0edd840671d053f10');
       $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php", array("login" => $auth_id ));
+
+      /* start get product reference id */
+
+      $meta_value = get_post_meta($product->id,'ref_product_id',true); 
+      if($meta_value==''){
+         $product_title = $product->get_name();
+         $productDetail = wc_get_product( $product->id );
+
+         $ref_product_id = get_ref_product_id($product_title,$productDetail->get_sku(),$client);
+
+         //print_r($ref_product_id);
+
+         if($ref_product_id != ''){
+
+            update_post_meta( $product->id, 'ref_product_id', $ref_product_id );
+         }
+      }
+
+      /*  end get product reference id */
+
+
+      $prodsku = $product->sku;
+
+
+      
 
       $filepath=plugin_dir_path( __FILE__ ).'test-log.txt';
 
@@ -790,40 +834,7 @@ function order_sink_fn($order_id) {
 }
 
 
-/* add transaction integration */
-add_action('woocommerce_thankyou', 'cybertill_order_content_data_fn', 10, 1);
-function cybertill_order_content_data_fn( $order_id ) {
-   session_start();
-
-   try{
-
-        if(!isset($_SESSION['cybertillflag'])){
-
-            $_SESSION['cybertillflag']=0;
-
-        }
-
-        if(isset($_SESSION['cybertillflag']) && $_SESSION['cybertillflag']!=0 && $_SESSION['cybertillflag']!=$order_id){
-
-            $_SESSION['cybertillflag']=0;
-
-        }
-
-        if(isset($_SESSION['cybertillflag']) && $_SESSION['cybertillflag']==0){
-
-            update_post_meta($order_id, 'cybertill_order_flag', 0);
-            echo get_order_information_data($order_id);
-          
-        }   
-
-   }catch(Exception $e){
-     $data = $e->getMessage();
-    // print_r($data);
-
-   }      
-
-}     
-
+    
 
 function get_order_information_data($order_id){
 
@@ -835,6 +846,12 @@ function get_order_information_data($order_id){
 
    $orderinfo = wc_get_order( $order_id );
    $order_data = $orderinfo->get_data();
+
+   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php");
+   $auth_id = $client->authenticate_get('www.loakefactoryshop.co.uk', 'e18b7b83675c99e0edd840671d053f10');
+   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php", array("login" => $auth_id ));
+
+   $locationdata=$client->location_web_list(1);
 
    /* BILLING INFORMATION: */
    $order_billing_first_name = $order_data['billing']['first_name'];
@@ -864,7 +881,6 @@ function get_order_information_data($order_id){
    /* ORDER ITEMS INFORMATION */
    $order_items = array();
    $order_all_data = array();
-
    $order_details = array();
 
    foreach($orderinfo->get_items() as $item_key => $item ){
@@ -888,6 +904,39 @@ function get_order_information_data($order_id){
       $product_price  = $product->get_price();
       $stock_quantity = $product->get_stock_quantity();
 
+      $cybertill_parent_product_id = get_post_meta($product_id,'ref_product_id',true);
+
+      if($cybertill_parent_product_id!=''){
+
+         $prod_stocks = $client->stock_product($cybertill_parent_product_id , $locationdata->item->location->id);
+
+         if(!empty($prod_stocks->item)){
+
+
+            foreach($prod_stocks->item as $prod_stock){
+
+               $product_item = $client->item_get ($prod_stock->stkItemId ,$locationdata->item->location->id);
+               $ref_sku = explode(":",$product_item->productOption->ref);
+
+               if($ref_sku[0].$ref_sku[2]==$product_sku){
+                 $order_items[] = array(
+                     'itemId' => $prod_stock->stkItemId,
+                     'salesQty' =>$quantity,
+                     'itemPrice' =>$product_price,
+                     'discountPrice' =>null,
+                     'note' => '',
+                     'vatRate' =>null,
+                     'issuedValue' =>null
+                  );
+               }
+           
+            }
+            
+         }
+
+      }
+
+      
       $order_all_data[]=array(
          'item_id'=>$item_id,
          'product_id'=>$product_id,
@@ -905,7 +954,7 @@ function get_order_information_data($order_id){
          'stock_quantity'=>$stock_quantity
       );
 
-      $order_items[] = array(
+      /* $order_items[] = array(
          'itemId' => $item_id,
          'salesQty' =>$quantity,
          'itemPrice' =>$product_price,
@@ -913,7 +962,7 @@ function get_order_information_data($order_id){
          'note' => '',
          'vatRate' =>null,
          'issuedValue' =>null
-      );
+      ); */
 
    }
 
@@ -959,11 +1008,7 @@ function get_order_information_data($order_id){
 
    $order_customer_note = $orderinfo->get_customer_note();
 
-
-   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php");
-   $auth_id = $client->authenticate_get('www.loakefactoryshop.co.uk', 'e18b7b83675c99e0edd840671d053f10');
-   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php", array("login" => $auth_id ));
-
+   
 
    $row = $wpdb->get_row("SELECT * FROM `wp_customer_details` WHERE `email` = '".$order_billing_email."' ");
 
@@ -1097,20 +1142,20 @@ function get_order_information_data($order_id){
 
    }
      
-    $courier_info=$client->courier_tariff(202,$order_total);//contryid,total
+    $courier_info=$client->courier_tariff(202,$order_total); //contryid,total
     $tariffId=$courier_info->value_tariffs->item->productOption->id;
     $serviceId=$courier_info->value_tariffs->item->carriageService->id;
-    
+   
     if($customerId!='' && $addressId!='' && $tariffId!='' && $serviceId!=''){
 
       $order_details = array(
          'websiteId' => 1,
          'customerId' => $customerId,
-         'locationId' => 9,
-        // 'status'=>1,
+         'locationId' => $locationdata->item->location->id,
+         'status'=>1,
          'orderTotal' => $order_total,
          'orderNote' => $order_customer_note,
-         'customerOrderRef' => null
+         'customerOrderRef' => $order_id
       );
 
       $order_payments = array(
@@ -1145,7 +1190,6 @@ function get_order_information_data($order_id){
          $order_delivery,
          $order_payments
       );
-
 
       $transaction_data[]=$cust_tran_data;
 
@@ -1205,16 +1249,66 @@ function get_order_information_data($order_id){
 
       if($cust_tran_data->transaction->status==1){
 
-         $transaction_id = $cust_tran_data->transaction->id;
-         $cybertilorderTotal = $cust_tran_data->transaction->orderTotal;
-         $cybertilordervat = $cust_tran_data->transaction->vat;
+            $transaction_id = $cust_tran_data->transaction->id;
+            $cybertilorderTotal = $cust_tran_data->transaction->orderTotal;
+            $cybertilordervat = $cust_tran_data->transaction->vat;
 
-         update_post_meta($order_id, 'cybertill_order_flag', 1);
-         update_post_meta($order_id, 'cybertill_transaction_id', $transaction_id);
-         update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
-         update_post_meta($order_id, 'cybertill_order_vat', $cybertilordervat);
+            $despatch_items=array();
+            $prod_tran_datas = $client->transaction_get($transaction_id);
 
-         $_SESSION['cybertillflag']=$order_id;
+            if(!empty($prod_tran_datas)){
+
+               foreach($prod_tran_datas as $prod_tran_data){
+ 
+                  foreach($prod_tran_data->item as $item_data){
+
+                     if($item_data->productOption->ref!='DELIVERYCLASSIC'){
+
+                     $prod_item_id=$item_data->productOption->id;
+                     $prod_item_ref=$item_data->productOption->ref;
+                     $prod_item_stockQty=$item_data->stockQty;
+                     
+                        $despatch_items[]=array(
+                           'transactionId' =>$transaction_id,
+                           'itemId' =>$prod_item_id,
+                           'qty' => $prod_item_stockQty,
+                           'locationId' => 129,
+                           'consignmentRef' => $prod_item_ref
+                        );
+                     
+
+                     } 
+
+                  }
+
+               }
+
+               if(!empty($despatch_items)){
+                  
+                  try{
+
+                     $client->transaction_despatch_order_items(1, $despatch_items);
+   
+                  }catch(Exception $e){
+   
+                     echo $e->getMessage();
+                     
+                  } 
+
+               }
+            
+            }
+
+            update_post_meta($order_id, 'cybertill_order_flag', 1);
+            update_post_meta($order_id, 'cybertill_transaction_id', $transaction_id);
+            update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
+            update_post_meta($order_id, 'cybertill_order_vat', $cybertilordervat);
+
+
+            $_SESSION['cybertillflag']=$order_id;
+            
+            
+            $orderinfo->update_status( 'completed' );  
 
         
       }else{
@@ -1227,6 +1321,8 @@ function get_order_information_data($order_id){
          update_post_meta($order_id, 'cybertill_transaction_id', $transaction_id);
          update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
          update_post_meta($order_id, 'cybertill_order_vat', $cybertilordervat);
+
+         $orderinfo->update_status( 'processing' );  
 
          
       }
@@ -1241,11 +1337,47 @@ function get_order_information_data($order_id){
          update_post_meta($order_id, 'cybertill_transaction_id', $transaction_id);
          update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
          update_post_meta($order_id, 'cybertill_order_vat', $cybertilordervat);
+
+         $orderinfo->update_status( 'processing' );  
         
     } 
 
 }
 
+/* add transaction integration */
+add_action('woocommerce_thankyou', 'cybertill_order_content_data_fn', 10, 1);
+function cybertill_order_content_data_fn( $order_id ) {
+   session_start();
+
+   try{
+
+        if(!isset($_SESSION['cybertillflag'])){
+
+            $_SESSION['cybertillflag']=0;
+
+        }
+
+        if(isset($_SESSION['cybertillflag']) && $_SESSION['cybertillflag']!=0 && $_SESSION['cybertillflag']!=$order_id){
+
+            $_SESSION['cybertillflag']=0;
+
+        }
+
+        if(isset($_SESSION['cybertillflag']) && $_SESSION['cybertillflag']==0){
+
+            update_post_meta($order_id, 'cybertill_order_flag', 0);
+                
+            echo get_order_information_data($order_id);
+          
+        }   
+
+   }catch(Exception $e){
+     $data = $e->getMessage();
+    // print_r($data);
+
+   }      
+
+} 
 
 function resyn_order_info_data($order_id){
 
@@ -1256,6 +1388,14 @@ function resyn_order_info_data($order_id){
 
    $orderinfo = wc_get_order( $order_id );
    $order_data = $orderinfo->get_data();
+
+
+   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php");
+   $auth_id = $client->authenticate_get('www.loakefactoryshop.co.uk', 'e18b7b83675c99e0edd840671d053f10');
+   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php", array("login" => $auth_id ));
+   
+   $locationdata=$client->location_web_list(1);
+
 
    /* BILLING INFORMATION: */
    $order_billing_first_name = $order_data['billing']['first_name'];
@@ -1309,6 +1449,44 @@ function resyn_order_info_data($order_id){
       $product_price  = $product->get_price();
       $stock_quantity = $product->get_stock_quantity();
 
+
+
+      $cybertill_parent_product_id = get_post_meta($product_id,'ref_product_id',true);
+
+      if($cybertill_parent_product_id!=''){
+
+         $prod_stocks = $client->stock_product($cybertill_parent_product_id , $locationdata->item->location->id);
+
+         if(!empty($prod_stocks->item)){
+
+
+            foreach($prod_stocks->item as $prod_stock){
+
+               $product_item = $client->item_get($prod_stock->stkItemId,$locationdata->item->location->id);
+               $ref_sku = explode(":",$product_item->productOption->ref);
+
+               if($ref_sku[0].$ref_sku[2]==$product_sku){
+
+                 
+                 $order_items[] = array(
+                     'itemId' => $prod_stock->stkItemId,
+                     'salesQty' =>$quantity,
+                     'itemPrice' =>$product_price,
+                     'discountPrice' =>null,
+                     'note' => '',
+                     'vatRate' =>null,
+                     'issuedValue' =>null
+                 );
+
+               }
+           
+            }
+            
+         }
+
+      }
+
+
       $order_all_data[]=array(
          'item_id'=>$item_id,
          'product_id'=>$product_id,
@@ -1326,7 +1504,7 @@ function resyn_order_info_data($order_id){
          'stock_quantity'=>$stock_quantity
       );
 
-      $order_items[] = array(
+     /*  $order_items[] = array(
          'itemId' => $item_id,
          'salesQty' =>$quantity,
          'itemPrice' =>$product_price,
@@ -1334,7 +1512,7 @@ function resyn_order_info_data($order_id){
          'note' => '',
          'vatRate' =>null,
          'issuedValue' =>null
-      );
+      ); */
 
    }
 
@@ -1379,12 +1557,6 @@ function resyn_order_info_data($order_id){
    $order_discount_total = number_format( $order_discount_total, 2 );
 
    $order_customer_note = $orderinfo->get_customer_note();
-
-
-   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php");
-   $auth_id = $client->authenticate_get('www.loakefactoryshop.co.uk', 'e18b7b83675c99e0edd840671d053f10');
-   $client = new SoapClient("https://ct05072.cybertill-cloud.co.uk/current/CybertillApi_v1_6.wsdl.php", array("login" => $auth_id ));
-
 
    $row = $wpdb->get_row("SELECT * FROM `wp_customer_details` WHERE `email` = '".$order_billing_email."'");
 
@@ -1527,11 +1699,11 @@ function resyn_order_info_data($order_id){
       $order_details = array(
          'websiteId' => 1,
          'customerId' => $customerId,
-         'locationId' => 9,
-        // 'status'=>1,
+         'locationId' => $locationdata->item->location->id,
+         'status'=>1,
          'orderTotal' => $order_total,
          'orderNote' => $order_customer_note,
-         'customerOrderRef' => null
+         'customerOrderRef' =>$order_id
       );
 
       $order_payments = array(
@@ -1629,6 +1801,51 @@ function resyn_order_info_data($order_id){
          $cybertilorderTotal = $cust_tran_data->transaction->orderTotal;
          $cybertilordervat = $cust_tran_data->transaction->vat;
 
+         $despatch_items=array();
+
+         $prod_tran_datas = $client->transaction_get($transaction_id);
+
+         if(!empty($prod_tran_datas)){
+
+            foreach($prod_tran_datas as $prod_tran_data){
+  
+               foreach($prod_tran_data->item as $item_data){
+
+                  if($item_data->productOption->ref!='DELIVERYCLASSIC'){
+
+                  $prod_item_id=$item_data->productOption->id;
+                  $prod_item_ref=$item_data->productOption->ref;
+                  $prod_item_stockQty=$item_data->stockQty;
+                  
+                     $despatch_items[]=array(
+                        'transactionId' =>$transaction_id,
+                        'itemId' =>$prod_item_id,
+                        'qty' => $prod_item_stockQty,
+                        'locationId' => 129,
+                        'consignmentRef' => $prod_item_ref
+                     );
+                  
+
+                  } 
+
+               }
+
+            }
+
+            if(!empty($despatch_items)){
+               try{
+
+                  $client->transaction_despatch_order_items(1, $despatch_items);
+
+               }catch(Exception $e){
+
+                  echo $e->getMessage();
+
+               }  
+            }
+         
+         }
+
          update_post_meta($order_id, 'cybertill_order_flag', 1);
          update_post_meta($order_id, 'cybertill_transaction_id', $transaction_id);
          update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
@@ -1636,6 +1853,7 @@ function resyn_order_info_data($order_id){
 
          $_SESSION['cybertillflag']=$order_id;
 
+         $orderinfo->update_status( 'completed' ); 
         
       }else{
 
@@ -1648,6 +1866,7 @@ function resyn_order_info_data($order_id){
          update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
          update_post_meta($order_id, 'cybertill_order_vat', $cybertilordervat);
 
+         $orderinfo->update_status( 'processing' ); 
          
       }
 
@@ -1662,8 +1881,8 @@ function resyn_order_info_data($order_id){
          update_post_meta($order_id, 'cybertill_order_total', $cybertilorderTotal);
          update_post_meta($order_id, 'cybertill_order_vat', $cybertilordervat);
         
+         $orderinfo->update_status( 'processing' ); 
     } 
-
 
 }
 
@@ -1688,7 +1907,6 @@ function resychronize_cybertill_om_request_fn(){
 
           if(!empty($tranid)){
           
-            $orderinfo->update_status( 'wc-processing' );                        
             $order_id=$orderinfo->get_id();
             echo resyn_order_info_data($order_id);
             

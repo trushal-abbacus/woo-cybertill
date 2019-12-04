@@ -1,0 +1,108 @@
+
+ ********************************** 
+2019-11-28 07:11:20
+ ********************************** 
+
+ Order Id=8161
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6464
+                    [status] => 1
+                    [orderTotal] => 105.95
+                    [vat] => 16.5
+                )
+
+            [customer_order_ref] => 8161
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
+
+ ********************************** 
+2019-11-28 10:18:54
+ ********************************** 
+
+ Order Id=8170
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6465
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8170
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
+
+ ********************************** 
+2019-11-28 13:32:43
+ ********************************** 
+
+ Order Id=8187
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6468
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8187
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
+
+ ********************************** 
+2019-11-28 14:27:53
+ ********************************** 
+
+ Order Id=8192
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6469
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8192
+            [success] => 1
+        )
+
+)
+
+********* End ********* 

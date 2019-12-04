@@ -1,0 +1,54 @@
+
+ ********************************** 
+2019-12-02 09:28:33
+ ********************************** 
+
+ Order Id=8225
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6470
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8225
+            [success] => 1
+        )
+
+)
+
+********* End ********* 
+
+ ********************************** 
+2019-12-02 11:50:09
+ ********************************** 
+
+ Order Id=8236
+
+ Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6471
+                    [status] => 1
+                    [orderTotal] => 136.95
+                    [vat] => 21.67
+                )
+
+            [customer_order_ref] => 8236
+            [success] => 1
+        )
+
+)
+
+********* End ********* 

@@ -1,0 +1,171 @@
+
+ ********************************** 
+2019-11-27 12:00:07
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 12:23:23
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 12:36:30
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 12:39:33
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 12:41:18
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 9655
+            [name] => * CENTAURI TAN - Calf Apron Loafer
+            [ref] => LWCENT:F:110
+            [styleString] => Fitting: F / Size: 110
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => LWCENT:F:110
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 12:45:54
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 12:46:12
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 13:00:42
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 13:07:20
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 6407
+            [name] => * DEMON BURGUNDY - Brogue Oxford
+            [ref] => DEMR:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => DEMR:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 13:07:49
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 13:08:02
+ ********************************** 
+
+ Start Variable Product Information : 
+stdClass Object
+(
+    [productOption] => stdClass Object
+        (
+            [id] => 7945
+            [name] => * GHOST TAN SUEDE - Plain Derby
+            [ref] => GHOTS:G:130
+            [styleString] => Fitting: G / Size: 130
+            [availableToSell] => 1
+            [discontinued] => 
+            [webVisible] => 1
+            [manNumber] => GHOTS:G:130
+            [dataVatId] => 1
+        )
+
+    [productOptionPrice] => stdClass Object
+        (
+            [priceRrp] => 0
+            [priceStore] => 0
+            [priceWeb] => 0
+            [priceStaff] => 0
+            [priceTrade] => 0
+        )
+
+)
+
+ End Variable Product Information  
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 13:08:20
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 13:08:21
+ ********************************** 
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-27 14:28:51
+ ********************************** 
+
+ ********* End ********* 

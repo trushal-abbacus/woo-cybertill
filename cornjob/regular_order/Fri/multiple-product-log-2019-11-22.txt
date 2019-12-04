@@ -1,0 +1,2742 @@
+
+ ********************************** 
+2019-11-22 00:31:22
+ ********************************** 
+
+ Product Infotmation: 
+Array
+(
+    [0] => Array
+        (
+            [productId] => 6204
+            [productRefId] => 8078
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => PAIS080
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => PAIS080
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => PAIS085
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => PAIS090
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => PAIS090
+                    [stock] => -1
+                )
+
+            [5] => Array
+                (
+                    [sku] => PAIS095
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => PAIS100
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => PAIS105
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => PAIS110
+                    [stock] => 0
+                )
+
+        )
+
+    [1] => Array
+        (
+            [productId] => 6321
+            [productRefId] => 11113
+            [productType] => variable
+        )
+
+    [2] => Array
+        (
+            [productId] => 6305
+            [productRefId] => 11105
+            [productType] => variable
+        )
+
+    [3] => Array
+        (
+            [productId] => 4651
+            [productRefId] => 8800
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => RLSUTTGR080
+                    [stock] => 1
+                )
+
+            [1] => Array
+                (
+                    [sku] => RLSUTTGR085
+                    [stock] => 1
+                )
+
+            [2] => Array
+                (
+                    [sku] => RLSUTTGR090
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => RLSUTTGR090
+                    [stock] => 1
+                )
+
+            [4] => Array
+                (
+                    [sku] => RLSUTTGR095
+                    [stock] => 1
+                )
+
+            [5] => Array
+                (
+                    [sku] => RLSUTTGR100
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => RLSUTTGR100
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => RLSUTTGR105
+                    [stock] => 1
+                )
+
+        )
+
+    [4] => Array
+        (
+            [productId] => 4406
+            [productRefId] => 3246
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => CAIBS070
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => CAIBS070
+                    [stock] => 1
+                )
+
+            [2] => Array
+                (
+                    [sku] => CAIBS075
+                    [stock] => 1
+                )
+
+            [3] => Array
+                (
+                    [sku] => CAIBS080
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => CAIBS090
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => CAIBS090
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => CAIBS095
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => CAIBS100
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => CAIBS100
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => CAIBS105
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => CAIBS105
+                    [stock] => 1
+                )
+
+            [11] => Array
+                (
+                    [sku] => CAIBS125
+                    [stock] => 0
+                )
+
+        )
+
+    [5] => Array
+        (
+            [productId] => 4487
+            [productRefId] => 949
+            [productType] => simple
+            [stock] => -1
+        )
+
+    [6] => Array
+        (
+            [productId] => 4370
+            [productRefId] => 10162
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => WATM065
+                    [stock] => 1
+                )
+
+            [1] => Array
+                (
+                    [sku] => WATM080
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => WATM080
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => WATM085
+                    [stock] => 0
+                )
+
+        )
+
+    [7] => Array
+        (
+            [productId] => 4075
+            [productRefId] => 4004
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => DEMR060
+                    [stock] => 1
+                )
+
+            [1] => Array
+                (
+                    [sku] => DEMR065
+                    [stock] => 1
+                )
+
+            [2] => Array
+                (
+                    [sku] => DEMR100
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => DEMR110
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => DEMR110
+                    [stock] => -1
+                )
+
+            [5] => Array
+                (
+                    [sku] => DEMR120
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => DEMR120
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => DEMR130
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => DEMR130
+                    [stock] => 0
+                )
+
+        )
+
+    [8] => Array
+        (
+            [productId] => 4053
+            [productRefId] => 3991
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => DEMDK060
+                    [stock] => 1
+                )
+
+            [1] => Array
+                (
+                    [sku] => DEMDK065
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => DEMDK075
+                    [stock] => 1
+                )
+
+            [3] => Array
+                (
+                    [sku] => DEMDK095
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => DEMDK095
+                    [stock] => 1
+                )
+
+            [5] => Array
+                (
+                    [sku] => DEMDK100
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => DEMDK105
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => DEMDK105
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => DEMDK110
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => DEMDK110
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => DEMDK130
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => DEMDK130
+                    [stock] => 1
+                )
+
+        )
+
+    [9] => Array
+        (
+            [productId] => 4031
+            [productRefId] => 3978
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => DEMB060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => DEMB060
+                    [stock] => -1
+                )
+
+            [2] => Array
+                (
+                    [sku] => DEMB065
+                    [stock] => 1
+                )
+
+            [3] => Array
+                (
+                    [sku] => DEMB090
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => DEMB090
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => DEMB100
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => DEMB100
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => DEMB105
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => DEMB105
+                    [stock] => -1
+                )
+
+            [9] => Array
+                (
+                    [sku] => DEMB110
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => DEMB110
+                    [stock] => -1
+                )
+
+            [11] => Array
+                (
+                    [sku] => DEMB120
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => DEMB120
+                    [stock] => 0
+                )
+
+        )
+
+    [10] => Array
+        (
+            [productId] => 4008
+            [productRefId] => 7230
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LWALPDK060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => LWALPDK060
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => LWALPDK065
+                    [stock] => 1
+                )
+
+            [3] => Array
+                (
+                    [sku] => LWALPDK070
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => LWALPDK070
+                    [stock] => 5
+                )
+
+            [5] => Array
+                (
+                    [sku] => LWALPDK075
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => LWALPDK075
+                    [stock] => 4
+                )
+
+            [7] => Array
+                (
+                    [sku] => LWALPDK080
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LWALPDK080
+                    [stock] => 9
+                )
+
+            [9] => Array
+                (
+                    [sku] => LWALPDK085
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LWALPDK085
+                    [stock] => 1
+                )
+
+            [11] => Array
+                (
+                    [sku] => LWALPDK090
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => LWALPDK090
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => LWALPDK095
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LWALPDK095
+                    [stock] => 1
+                )
+
+            [15] => Array
+                (
+                    [sku] => LWALPDK100
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LWALPDK100
+                    [stock] => 2
+                )
+
+            [17] => Array
+                (
+                    [sku] => LWALPDK105
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => LWALPDK105
+                    [stock] => 8
+                )
+
+            [19] => Array
+                (
+                    [sku] => LWALPDK110
+                    [stock] => 0
+                )
+
+            [20] => Array
+                (
+                    [sku] => LWALPDK110
+                    [stock] => 4
+                )
+
+            [21] => Array
+                (
+                    [sku] => LWALPDK120
+                    [stock] => 0
+                )
+
+            [22] => Array
+                (
+                    [sku] => LWALPDK120
+                    [stock] => 0
+                )
+
+        )
+
+    [11] => Array
+        (
+            [productId] => 3986
+            [productRefId] => 3276
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => CAINS075
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => CAINS075
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => CAINS090
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => CAINS095
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => CAINS095
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => CAINS100
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => CAINS110
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => CAINS120
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => CAINS120
+                    [stock] => 1
+                )
+
+            [9] => Array
+                (
+                    [sku] => CAINS125
+                    [stock] => 1
+                )
+
+        )
+
+    [12] => Array
+        (
+            [productId] => 3898
+            [productRefId] => 10484
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => WOOT060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => WOOT065
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => WOOT065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => WOOT070
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => WOOT070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => WOOT075
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => WOOT080
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => WOOT085
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => WOOT090
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => WOOT095
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => WOOT100
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => WOOT100
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => WOOT105
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => WOOT105
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => WOOT120
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => WOOT120
+                    [stock] => 0
+                )
+
+        )
+
+    [13] => Array
+        (
+            [productId] => 3854
+            [productRefId] => 9887
+            [productType] => variable
+        )
+
+    [14] => Array
+        (
+            [productId] => 5968
+            [productRefId] => 7278
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LWSIRB060
+                    [stock] => 2
+                )
+
+            [1] => Array
+                (
+                    [sku] => LWSIRB065
+                    [stock] => 2
+                )
+
+            [2] => Array
+                (
+                    [sku] => LWSIRB070
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => LWSIRB070
+                    [stock] => 4
+                )
+
+            [4] => Array
+                (
+                    [sku] => LWSIRB075
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => LWSIRB075
+                    [stock] => 2
+                )
+
+            [6] => Array
+                (
+                    [sku] => LWSIRB080
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => LWSIRB080
+                    [stock] => 1
+                )
+
+            [8] => Array
+                (
+                    [sku] => LWSIRB085
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => LWSIRB090
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LWSIRB090
+                    [stock] => 3
+                )
+
+            [11] => Array
+                (
+                    [sku] => LWSIRB095
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => LWSIRB095
+                    [stock] => 1
+                )
+
+            [13] => Array
+                (
+                    [sku] => LWSIRB100
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LWSIRB100
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => LWSIRB105
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LWSIRB105
+                    [stock] => 5
+                )
+
+            [17] => Array
+                (
+                    [sku] => LWSIRB110
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => LWSIRB110
+                    [stock] => 4
+                )
+
+            [19] => Array
+                (
+                    [sku] => LWSIRB120
+                    [stock] => 5
+                )
+
+        )
+
+    [15] => Array
+        (
+            [productId] => 3783
+            [productRefId] => 7290
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LWSIRDK070
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => LWSIRDK070
+                    [stock] => 1
+                )
+
+            [2] => Array
+                (
+                    [sku] => LWSIRDK075
+                    [stock] => 6
+                )
+
+            [3] => Array
+                (
+                    [sku] => LWSIRDK080
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => LWSIRDK080
+                    [stock] => -1
+                )
+
+            [5] => Array
+                (
+                    [sku] => LWSIRDK085
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => LWSIRDK085
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => LWSIRDK090
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LWSIRDK090
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => LWSIRDK095
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LWSIRDK095
+                    [stock] => 1
+                )
+
+            [11] => Array
+                (
+                    [sku] => LWSIRDK100
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => LWSIRDK100
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => LWSIRDK105
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LWSIRDK105
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => LWSIRDK110
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LWSIRDK110
+                    [stock] => 4
+                )
+
+        )
+
+    [16] => Array
+        (
+            [productId] => 5950
+            [productRefId] => 7242
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LWCENB060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => LWCENB060
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => LWCENB065
+                    [stock] => 1
+                )
+
+            [3] => Array
+                (
+                    [sku] => LWCENB070
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => LWCENB070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => LWCENB075
+                    [stock] => 5
+                )
+
+            [6] => Array
+                (
+                    [sku] => LWCENB080
+                    [stock] => 4
+                )
+
+            [7] => Array
+                (
+                    [sku] => LWCENB085
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LWCENB085
+                    [stock] => 2
+                )
+
+            [9] => Array
+                (
+                    [sku] => LWCENB090
+                    [stock] => 1
+                )
+
+            [10] => Array
+                (
+                    [sku] => LWCENB095
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => LWCENB095
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => LWCENB100
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => LWCENB100
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LWCENB105
+                    [stock] => 2
+                )
+
+            [15] => Array
+                (
+                    [sku] => LWCENB110
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LWCENB110
+                    [stock] => 1
+                )
+
+            [17] => Array
+                (
+                    [sku] => LWCENB120
+                    [stock] => 1
+                )
+
+        )
+
+    [17] => Array
+        (
+            [productId] => 3761
+            [productRefId] => 7254
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LWCENT070
+                    [stock] => 1
+                )
+
+            [1] => Array
+                (
+                    [sku] => LWCENT075
+                    [stock] => 3
+                )
+
+            [2] => Array
+                (
+                    [sku] => LWCENT085
+                    [stock] => 3
+                )
+
+            [3] => Array
+                (
+                    [sku] => LWCENT095
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => LWCENT095
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => LWCENT100
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => LWCENT100
+                    [stock] => 1
+                )
+
+            [7] => Array
+                (
+                    [sku] => LWCENT105
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LWCENT105
+                    [stock] => 1
+                )
+
+            [9] => Array
+                (
+                    [sku] => LWCENT110
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LWCENT110
+                    [stock] => 3
+                )
+
+        )
+
+    [18] => Array
+        (
+            [productId] => 3717
+            [productRefId] => 7217
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LWALPB060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => LWALPB060
+                    [stock] => 3
+                )
+
+            [2] => Array
+                (
+                    [sku] => LWALPB065
+                    [stock] => 7
+                )
+
+            [3] => Array
+                (
+                    [sku] => LWALPB070
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => LWALPB070
+                    [stock] => 5
+                )
+
+            [5] => Array
+                (
+                    [sku] => LWALPB075
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => LWALPB075
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => LWALPB080
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LWALPB080
+                    [stock] => -1
+                )
+
+            [9] => Array
+                (
+                    [sku] => LWALPB085
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LWALPB085
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => LWALPB090
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => LWALPB090
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => LWALPB095
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LWALPB100
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => LWALPB105
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LWALPB105
+                    [stock] => 4
+                )
+
+            [17] => Array
+                (
+                    [sku] => LWALPB110
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => LWALPB110
+                    [stock] => 2
+                )
+
+            [19] => Array
+                (
+                    [sku] => LWALPB120
+                    [stock] => 0
+                )
+
+            [20] => Array
+                (
+                    [sku] => LWALPB120
+                    [stock] => 1
+                )
+
+            [21] => Array
+                (
+                    [sku] => LWALPB130
+                    [stock] => 0
+                )
+
+            [22] => Array
+                (
+                    [sku] => LWALPB130
+                    [stock] => 1
+                )
+
+        )
+
+    [19] => Array
+        (
+            [productId] => 3664
+            [productRefId] => 10070
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => VICB060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => VICB060
+                    [stock] => 1
+                )
+
+            [2] => Array
+                (
+                    [sku] => VICB065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => VICB065
+                    [stock] => 1
+                )
+
+            [4] => Array
+                (
+                    [sku] => VICB070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => VICB070
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => VICB075
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => VICB075
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => VICB080
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => VICB080
+                    [stock] => -1
+                )
+
+            [10] => Array
+                (
+                    [sku] => VICB090
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => VICB100
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => VICB100
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => VICB105
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => VICB110
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => VICB120
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => VICB120
+                    [stock] => 0
+                )
+
+            [17] => Array
+                (
+                    [sku] => VICB130
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => VICB130
+                    [stock] => 1
+                )
+
+        )
+
+    [20] => Array
+        (
+            [productId] => 3576
+            [productRefId] => 5542
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => GHOTS070
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => GHOTS070
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => GHOTS080
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => GHOTS085
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => GHOTS085
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => GHOTS090
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => GHOTS095
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => GHOTS100
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => GHOTS105
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => GHOTS105
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => GHOTS110
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => GHOTS130
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => GHOTS130
+                    [stock] => 1
+                )
+
+        )
+
+    [21] => Array
+        (
+            [productId] => 3510
+            [productRefId] => 10147
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => WATB060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => WATB060
+                    [stock] => 2
+                )
+
+            [2] => Array
+                (
+                    [sku] => WATB065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => WATB065
+                    [stock] => 2
+                )
+
+            [4] => Array
+                (
+                    [sku] => WATB070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => WATB070
+                    [stock] => -1
+                )
+
+            [6] => Array
+                (
+                    [sku] => WATB110
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => WATB110
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => WATB115
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => WATB115
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => WATB120
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => WATB120
+                    [stock] => 0
+                )
+
+        )
+
+    [22] => Array
+        (
+            [productId] => 3356
+            [productRefId] => 3261
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => CAIDS060
+                    [stock] => 2
+                )
+
+            [1] => Array
+                (
+                    [sku] => CAIDS065
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => CAIDS065
+                    [stock] => 1
+                )
+
+            [3] => Array
+                (
+                    [sku] => CAIDS070
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => CAIDS070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => CAIDS075
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => CAIDS075
+                    [stock] => 2
+                )
+
+            [7] => Array
+                (
+                    [sku] => CAIDS080
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => CAIDS080
+                    [stock] => 1
+                )
+
+            [9] => Array
+                (
+                    [sku] => CAIDS085
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => CAIDS085
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => CAIDS090
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => CAIDS095
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => CAIDS095
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => CAIDS100
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => CAIDS100
+                    [stock] => 3
+                )
+
+            [16] => Array
+                (
+                    [sku] => CAIDS105
+                    [stock] => 0
+                )
+
+            [17] => Array
+                (
+                    [sku] => CAIDS105
+                    [stock] => 1
+                )
+
+            [18] => Array
+                (
+                    [sku] => CAIDS110
+                    [stock] => 0
+                )
+
+            [19] => Array
+                (
+                    [sku] => CAIDS110
+                    [stock] => 1
+                )
+
+            [20] => Array
+                (
+                    [sku] => CAIDS120
+                    [stock] => 1
+                )
+
+        )
+
+    [23] => Array
+        (
+            [productId] => 3268
+            [productRefId] => 10293
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => WHACH060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => WHACH060
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => WHACH065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => WHACH065
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => WHACH070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => WHACH070
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => WHACH075
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => WHACH075
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => WHACH085
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => WHACH090
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => WHACH105
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => WHACH105
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => WHACH110
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => WHACH110
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => WHACH115
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => WHACH115
+                    [stock] => 1
+                )
+
+            [16] => Array
+                (
+                    [sku] => WHACH120
+                    [stock] => 0
+                )
+
+            [17] => Array
+                (
+                    [sku] => WHACH120
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => WHACH125
+                    [stock] => 0
+                )
+
+            [19] => Array
+                (
+                    [sku] => WHACH130
+                    [stock] => 0
+                )
+
+            [20] => Array
+                (
+                    [sku] => WHACH130
+                    [stock] => 1
+                )
+
+        )
+
+    [24] => Array
+        (
+            [productId] => 2971
+            [productRefId] => 9821
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => TEMCH050
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => TEMCH050
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => TEMCH055
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => TEMCH055
+                    [stock] => 1
+                )
+
+            [4] => Array
+                (
+                    [sku] => TEMCH060
+                    [stock] => 2
+                )
+
+            [5] => Array
+                (
+                    [sku] => TEMCH065
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => TEMCH065
+                    [stock] => 2
+                )
+
+            [7] => Array
+                (
+                    [sku] => TEMCH070
+                    [stock] => 3
+                )
+
+            [8] => Array
+                (
+                    [sku] => TEMCH075
+                    [stock] => 1
+                )
+
+            [9] => Array
+                (
+                    [sku] => TEMCH080
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => TEMCH080
+                    [stock] => 5
+                )
+
+            [11] => Array
+                (
+                    [sku] => TEMCH085
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => TEMCH085
+                    [stock] => 1
+                )
+
+            [13] => Array
+                (
+                    [sku] => TEMCH090
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => TEMCH090
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => TEMCH095
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => TEMCH095
+                    [stock] => 2
+                )
+
+            [17] => Array
+                (
+                    [sku] => TEMCH100
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => TEMCH100
+                    [stock] => 1
+                )
+
+            [19] => Array
+                (
+                    [sku] => TEMCH105
+                    [stock] => 0
+                )
+
+            [20] => Array
+                (
+                    [sku] => TEMCH105
+                    [stock] => 3
+                )
+
+            [21] => Array
+                (
+                    [sku] => TEMCH110
+                    [stock] => 3
+                )
+
+            [22] => Array
+                (
+                    [sku] => TEMCH115
+                    [stock] => 2
+                )
+
+            [23] => Array
+                (
+                    [sku] => TEMCH120
+                    [stock] => 2
+                )
+
+            [24] => Array
+                (
+                    [sku] => TEMCH125
+                    [stock] => 0
+                )
+
+            [25] => Array
+                (
+                    [sku] => TEMCH125
+                    [stock] => 1
+                )
+
+            [26] => Array
+                (
+                    [sku] => TEMCH130
+                    [stock] => 2
+                )
+
+        )
+
+    [25] => Array
+        (
+            [productId] => 2970
+            [productRefId] => 9804
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => TEMB050
+                    [stock] => 1
+                )
+
+            [1] => Array
+                (
+                    [sku] => TEMB055
+                    [stock] => 4
+                )
+
+            [2] => Array
+                (
+                    [sku] => TEMB060
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => TEMB060
+                    [stock] => 14
+                )
+
+            [4] => Array
+                (
+                    [sku] => TEMB065
+                    [stock] => 1
+                )
+
+            [5] => Array
+                (
+                    [sku] => TEMB070
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => TEMB070
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => TEMB075
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => TEMB075
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => TEMB080
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => TEMB080
+                    [stock] => 3
+                )
+
+            [11] => Array
+                (
+                    [sku] => TEMB085
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => TEMB085
+                    [stock] => 1
+                )
+
+            [13] => Array
+                (
+                    [sku] => TEMB115
+                    [stock] => 1
+                )
+
+            [14] => Array
+                (
+                    [sku] => TEMB120
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => TEMB120
+                    [stock] => 2
+                )
+
+            [16] => Array
+                (
+                    [sku] => TEMB125
+                    [stock] => 0
+                )
+
+            [17] => Array
+                (
+                    [sku] => TEMB125
+                    [stock] => 1
+                )
+
+        )
+
+    [26] => Array
+        (
+            [productId] => 2969
+            [productRefId] => 6895
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LEDCH060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => LEDCH060
+                    [stock] => 3
+                )
+
+            [2] => Array
+                (
+                    [sku] => LEDCH065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => LEDCH065
+                    [stock] => 6
+                )
+
+            [4] => Array
+                (
+                    [sku] => LEDCH070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => LEDCH070
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => LEDCH075
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => LEDCH075
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LEDCH080
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => LEDCH080
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LEDCH090
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => LEDCH090
+                    [stock] => -1
+                )
+
+            [12] => Array
+                (
+                    [sku] => LEDCH095
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => LEDCH095
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LEDCH100
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => LEDCH100
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LEDCH105
+                    [stock] => 1
+                )
+
+            [17] => Array
+                (
+                    [sku] => LEDCH110
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => LEDCH110
+                    [stock] => 1
+                )
+
+            [19] => Array
+                (
+                    [sku] => LEDCH115
+                    [stock] => 0
+                )
+
+            [20] => Array
+                (
+                    [sku] => LEDCH115
+                    [stock] => 1
+                )
+
+            [21] => Array
+                (
+                    [sku] => LEDCH120
+                    [stock] => 0
+                )
+
+            [22] => Array
+                (
+                    [sku] => LEDCH120
+                    [stock] => 2
+                )
+
+            [23] => Array
+                (
+                    [sku] => LEDCH125
+                    [stock] => 0
+                )
+
+            [24] => Array
+                (
+                    [sku] => LEDCH125
+                    [stock] => 1
+                )
+
+            [25] => Array
+                (
+                    [sku] => LEDCH130
+                    [stock] => 0
+                )
+
+            [26] => Array
+                (
+                    [sku] => LEDCH130
+                    [stock] => 0
+                )
+
+        )
+
+    [27] => Array
+        (
+            [productId] => 2968
+            [productRefId] => 6880
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => LEDB060
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => LEDB060
+                    [stock] => 2
+                )
+
+            [2] => Array
+                (
+                    [sku] => LEDB065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => LEDB065
+                    [stock] => 2
+                )
+
+            [4] => Array
+                (
+                    [sku] => LEDB070
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => LEDB070
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => LEDB075
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => LEDB075
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => LEDB080
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => LEDB080
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => LEDB085
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => LEDB085
+                    [stock] => 0
+                )
+
+            [12] => Array
+                (
+                    [sku] => LEDB090
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => LEDB090
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => LEDB095
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => LEDB095
+                    [stock] => 0
+                )
+
+            [16] => Array
+                (
+                    [sku] => LEDB100
+                    [stock] => 0
+                )
+
+            [17] => Array
+                (
+                    [sku] => LEDB100
+                    [stock] => 0
+                )
+
+            [18] => Array
+                (
+                    [sku] => LEDB105
+                    [stock] => 0
+                )
+
+            [19] => Array
+                (
+                    [sku] => LEDB105
+                    [stock] => 1
+                )
+
+            [20] => Array
+                (
+                    [sku] => LEDB110
+                    [stock] => 0
+                )
+
+            [21] => Array
+                (
+                    [sku] => LEDB110
+                    [stock] => 0
+                )
+
+            [22] => Array
+                (
+                    [sku] => LEDB115
+                    [stock] => 0
+                )
+
+            [23] => Array
+                (
+                    [sku] => LEDB115
+                    [stock] => 2
+                )
+
+            [24] => Array
+                (
+                    [sku] => LEDB120
+                    [stock] => 0
+                )
+
+            [25] => Array
+                (
+                    [sku] => LEDB120
+                    [stock] => 0
+                )
+
+            [26] => Array
+                (
+                    [sku] => LEDB125
+                    [stock] => 0
+                )
+
+            [27] => Array
+                (
+                    [sku] => LEDB125
+                    [stock] => 0
+                )
+
+            [28] => Array
+                (
+                    [sku] => LEDB130
+                    [stock] => 0
+                )
+
+            [29] => Array
+                (
+                    [sku] => LEDB130
+                    [stock] => 1
+                )
+
+        )
+
+    [28] => Array
+        (
+            [productId] => 2959
+            [productRefId] => 1830
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => ALDCH055
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => ALDCH055
+                    [stock] => 0
+                )
+
+            [2] => Array
+                (
+                    [sku] => ALDCH065
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => ALDCH065
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => ALDCH075
+                    [stock] => 0
+                )
+
+            [5] => Array
+                (
+                    [sku] => ALDCH075
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => ALDCH095
+                    [stock] => 0
+                )
+
+            [7] => Array
+                (
+                    [sku] => ALDCH095
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => ALDCH110
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => ALDCH110
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => ALDCH120
+                    [stock] => 0
+                )
+
+            [11] => Array
+                (
+                    [sku] => ALDCH120
+                    [stock] => -1
+                )
+
+            [12] => Array
+                (
+                    [sku] => ALDCH125
+                    [stock] => 0
+                )
+
+            [13] => Array
+                (
+                    [sku] => ALDCH125
+                    [stock] => 0
+                )
+
+            [14] => Array
+                (
+                    [sku] => ALDCH130
+                    [stock] => 0
+                )
+
+            [15] => Array
+                (
+                    [sku] => ALDCH130
+                    [stock] => 0
+                )
+
+        )
+
+    [29] => Array
+        (
+            [productId] => 2958
+            [productRefId] => 5461
+            [productType] => variable
+            [0] => Array
+                (
+                    [sku] => GARSS070
+                    [stock] => 0
+                )
+
+            [1] => Array
+                (
+                    [sku] => GARSS070
+                    [stock] => 1
+                )
+
+            [2] => Array
+                (
+                    [sku] => GARSS075
+                    [stock] => 0
+                )
+
+            [3] => Array
+                (
+                    [sku] => GARSS080
+                    [stock] => 0
+                )
+
+            [4] => Array
+                (
+                    [sku] => GARSS080
+                    [stock] => 2
+                )
+
+            [5] => Array
+                (
+                    [sku] => GARSS085
+                    [stock] => 0
+                )
+
+            [6] => Array
+                (
+                    [sku] => GARSS100
+                    [stock] => 1
+                )
+
+            [7] => Array
+                (
+                    [sku] => GARSS105
+                    [stock] => 0
+                )
+
+            [8] => Array
+                (
+                    [sku] => GARSS105
+                    [stock] => 0
+                )
+
+            [9] => Array
+                (
+                    [sku] => GARSS110
+                    [stock] => 0
+                )
+
+            [10] => Array
+                (
+                    [sku] => GARSS110
+                    [stock] => 1
+                )
+
+        )
+
+)
+
+********* End ********* 

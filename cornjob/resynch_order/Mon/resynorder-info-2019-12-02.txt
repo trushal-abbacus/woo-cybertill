@@ -1,0 +1,27 @@
+
+ ********************************** 
+2019-12-02 12:39:18
+ ********************************** 
+
+ Order Id=8239
+
+ Resyn Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6472
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8239
+            [success] => 1
+        )
+
+)
+
+ ********* End ********* 

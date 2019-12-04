@@ -1,0 +1,54 @@
+
+ ********************************** 
+2019-11-28 13:28:43
+ ********************************** 
+
+ Order Id=8184
+
+ Resyn Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6466
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8184
+            [success] => 1
+        )
+
+)
+
+ ********* End ********* 
+
+ ********************************** 
+2019-11-28 13:28:43
+ ********************************** 
+
+ Order Id=8183
+
+ Resyn Transaction Infotmation: 
+Array
+(
+    [0] => stdClass Object
+        (
+            [transaction] => stdClass Object
+                (
+                    [id] => 6467
+                    [status] => 1
+                    [orderTotal] => 116.95
+                    [vat] => 18.33
+                )
+
+            [customer_order_ref] => 8183
+            [success] => 1
+        )
+
+)
+
+ ********* End ********* 
